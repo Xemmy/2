@@ -6,6 +6,7 @@ using HServer.Models.Repository;
 using HServer.Utils;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Web;
 using System.Web.Http;
@@ -155,8 +156,7 @@ namespace HServer.Controllers
     }
 
     public class AppointmentController : ApiControllerEx
-    {
-        private MailerHelper mailer;
+    {   
         public AppointmentController() : base() { }
         
         [HttpPost]
@@ -173,7 +173,6 @@ namespace HServer.Controllers
 
     public class FileServiceController : ApiControllerEx
     {
-
         public FileServiceController() : base() { }
 
         public IEnumerable<string> Get()
@@ -225,6 +224,26 @@ namespace HServer.Controllers
             CmeRepository contextCme = new CmeRepository();
             var cme = contextCme.FindOne(s => s.Id == cmeId);
             return context.GetAll().Where(e => e.Date.Day == cme.Date.Day && e.Date.Month == cme.Date.Month && e.Date.Year == cme.Date.Year);
+        }
+    }
+
+    public class ExistAppointController : ApiController
+    {
+        ExistingAppointmentRepository context = new ExistingAppointmentRepository();
+        //public IEnumerable<ExistingAppointment> Get()
+        //{
+        //    context.ImportData();
+
+        //    return context.GetAll();
+        //}
+        [HttpGet]
+        public IEnumerable<ExistingAppointment> Search(string mrn = "", long emirate = 0)
+        {
+            context.ImportData();
+            var emID = emirate.ToString();
+            return context.Find(d =>
+                (!string.IsNullOrEmpty(mrn) ? d.MRN.ToLower().StartsWith(mrn.Trim().ToLower()) : true) &&
+                (emirate > 0 ? d.EmiratesID.StartsWith(emID) : true));
         }
         
     }
