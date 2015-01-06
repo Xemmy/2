@@ -1,0 +1,7 @@
+C:\Users\Arago_000\Desktop\heal\33\2\HServer\obj\Debug\Fakes\swh\b\System.Web.Helpers.1.0.0.0.Fakes.xml
+C:\Users\Arago_000\Desktop\heal\33\2\HServer\obj\Debug\Fakes\swh\b\System.Web.Helpers.1.0.0.0.Fakes.dll
+C:\Users\Arago_000\Desktop\heal\33\2\HServer\obj\Debug\Fakes\swh\b\System.Web.Helpers.1.0.0.0.Fakes.pdb
+C:\Users\Arago_000\Desktop\heal\33\2\HServer\obj\Debug\Fakes\swh\b\Microsoft.QualityTools.Testing.Fakes.dll
+C:\Users\Arago_000\Desktop\heal\33\2\HServer\obj\Debug\Fakes\swh\o\f.csprojResolveAssemblyReference.cache
+C:\Users\Arago_000\Desktop\heal\33\2\HServer\obj\Debug\Fakes\swh\o\System.Web.Helpers.1.0.0.0.Fakes.dll
+C:\Users\Arago_000\Desktop\heal\33\2\HServer\obj\Debug\Fakes\swh\o\System.Web.Helpers.1.0.0.0.Fakes.pdb
