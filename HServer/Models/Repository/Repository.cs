@@ -51,7 +51,7 @@ namespace HServer.Models.Repository
             if (entity == null) throw new ArgumentNullException("entity");
 
             _context.Set<T>().Attach(entity);
-            _context.Entry<T>(entity).State = System.Data.Entity.EntityState.Modified;
+            _context.Entry<T>(entity).State = EntityState.Modified;
             return entity;
         }
 
