@@ -1,5 +1,4 @@
 "54543509"|"26/JAN/2015"|"10:00"|"AA00561298"|""|"AA Schwab, Lori"|"AA Psychiatric Clinic"|"Ar"|"EMIRATI"|"%"
-"54543599"|"26/JAN/2015"|"10:00"|"AA00000000"|"999"|"AA Schwab, Lori"|"AA Psychiatric Clinic"|"Ar"|"EMIRATI"|"%"
 "54543554"|"02/FEB/2015"|"10:00"|"AA00561298"|""|"AA Schwab, Lori"|"AA Psychiatric Clinic"|"Ar"|"EMIRATI"|"%"
 "54543588"|"09/FEB/2015"|"10:00"|"AA00561298"|""|"AA Schwab, Lori"|"AA Psychiatric Clinic"|"Ar"|"EMIRATI"|"%"
 "53701190"|"21/DEC/2014"|"11:00"|"AA10283779"|"784195306842873"|"AA Pauyon, Joy Ann"|"AA Rehabilitation Clinic"|"Ar"|"EMIRATI"|"%"
